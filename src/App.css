@@ -1,0 +1,30 @@
+.mainbody{
+    background-color: #009688;
+    min-height: 500px;
+    margin: 20px auto;
+    width: 500px;
+    padding: 20px;
+}
+#to-do-app{
+  margin: 20px auto;
+    width: 500px;
+}
+#to-do-app input {
+    padding: 8px;
+    width: 300px;
+    color: black;
+    font-size: 12px;
+       border: 0;
+    border-radius: 5px;
+}
+#to-do-app button{
+    background-color: burlywood;
+    padding: 8px;
+    margin-left: 10px;
+    border: 0;
+    border-radius: 5px;
+    width: 64px;
+    font-weight:bold;
+    
+    
+}

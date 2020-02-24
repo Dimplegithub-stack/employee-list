@@ -1,0 +1,38 @@
+ <form >
+
+                        <div className="form-group">
+
+                            <label htmlFor="empName" style={{ fontWeight: 700 }}>Employee Name</label>
+
+                            <input type="text" onChange={(e) => handleFormInput(e)} defaultValue={payload.name} className="form-control" id="name" placeholder="Enter the Employee Name" />
+
+                        </div>
+
+                        <div className="form-group">
+
+                            <label htmlFor="empId" style={{ fontWeight: 700 }}>Employee ID</label>
+
+                            <input type="text" onChange={(e) => handleFormInput(e)} defaultValue={payload.id} className="form-control" id="id" placeholder="Enter the Employee Id" />
+
+                        </div>
+
+
+
+                        <div className="form-group">
+
+                            <label htmlFor="joinedAt" style={{ fontWeight: 700 }}>Year of Joining</label>
+
+                            <input type="text" onChange={(e) => handleFormInput(e)} defaultValue={payload.joinedAt} className="form-control" id="joinedAt" placeholder="Enter the Employee Joined year" />
+
+                        </div>
+
+                
+
+
+
+                        <button type="button" className="btn btn-lg btn-primary" style={{ marginRight: 10 }} onClick={() => saveEmployee()} >Save</button>
+
+                        <button type="button" className="btn btn-lg btn-warning" style={{ marginRight: 10 }} onClick={() => cancel()}>Cancel</button>
+
+                        
+                    </form>
